@@ -31,6 +31,7 @@ public TextView tv;
             List iList = new ArrayList();
             for (int j = 0; j < 10; j++) {
                 iList.add(j);
+                Log.d("tag","test");
             }
             camera.classIds = iList;
             cameraList.add(camera);
